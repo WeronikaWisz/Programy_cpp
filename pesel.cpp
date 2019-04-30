@@ -25,7 +25,7 @@ void Pesel::validatePESEL(){
 }
 
 int main(){
-	Pesel p1{"99011907547"};
+	Pesel p1{"12345678903"};
 	Pesel p2{"12345678900"};
 	Pesel p3{"123"};
 	p1.validatePESEL();
